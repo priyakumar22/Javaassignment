@@ -1,0 +1,38 @@
+class Student{
+
+int roll_no;
+
+long Phone_Number;
+
+String Address;
+
+public String name; }
+
+public class Main {
+
+public static void main(String[] args) {
+
+Student student_object1 = new Student();
+
+Student student_object2 = new Student();
+
+student_object1.name = "Sam";
+
+student_object1.roll_no = 1001;
+
+student_object1.Phone_Number = 994297803;
+
+student_object1.Address = "Cuddalore";
+
+student_object2.Address = "Ariyalur";
+
+student_object2.name = "John";
+
+student_object2.roll_no = 1002;
+
+student_object2.Phone_Number = 994378929;
+
+System.out.println(student_object2.name +" "+student_object2.roll_no + " " + student_object2.Phone_Number + " "+ student_object2.Address);
+
+System.out.println(student_object1.name +" "+student_object1.roll_no +" " + student_object1.Phone_Number +" " + student_object1.Address); } } 
+
